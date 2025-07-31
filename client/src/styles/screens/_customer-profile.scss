@@ -1,0 +1,14 @@
+#customer-profile {
+  max-width: 400px;
+  
+  .background-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .profile-image {
+    &.floated {
+      margin-top: -50px;
+    }
+  }
+}

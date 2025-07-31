@@ -1,0 +1,477 @@
+{
+  "notifications": {
+    "title": "התראות",
+    "empty": "אין הודעות",
+    "view-all": "הצג את כל ההתראות",
+    "selectMessage": "בחר הודעה לצפייה בפרטים",
+    "delete": "מחק",
+    "info": {
+      "name": "שם",
+      "email": "אימייל",
+      "phone": "טלפון"
+    }
+  },
+  "global": {
+    "packages": "חבילות",
+    "package": "חבילה",
+    "settings": "הגדרות",
+    "customers": "לקוחות",
+    "customer": "לקוח",
+    "requests": "בקשות",
+    "request": "בקשה",
+    "services": "שירותים",
+    "bookyin": "Bookyin",
+    "home": "בית",
+    "contact": "צור קשר"
+  },
+  "common": {
+    "next": "הבא",
+    "previous": "הקודם",
+    "add": "הוסף",
+    "delete": "מחק",
+    "cancel": "ביטול",
+    "are-you-sure-delete": "האם אתה בטוח שברצונך למחוק?",
+    "explore": "חקור",
+    "explore-more": "חקור עוד",
+    "back": "חזור"
+  },
+  "languages": {
+    "english": "English",
+    "arabic": "العربية",
+    "hebrew": "עברית"
+  },
+  "components": {
+    "not-found": {
+      "msg": "הדף לא נמצא 404!",
+      "btn": "חזור לדף הבית"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "התחברות",
+      "subtitle": "ברוך שובך",
+      "greeting": "ברוך הבא",
+      "left-text": "כותרת ראשית עם טקסט מידע נוסף שמעודד משתמשים להתחבר.",
+      "form": {
+        "labels": {
+          "phone": "טלפון",
+          "password": "סיסמה"
+        },
+        "placeholders": {
+          "phone": "הזן את מספר הטלפון שלך",
+          "password": "הזן את הסיסמה שלך"
+        },
+        "errors": {
+          "required-phone": "יש להזין מספר טלפון",
+          "required-password": "יש להזין סיסמה",
+          "short-password": "הסיסמה חייבת להיות לפחות 6 תווים"
+        }
+      },
+      "buttons": {
+        "signin": "התחבר",
+        "signing-in": "מתחבר..."
+      },
+      "messages": {
+        "login-success": "המשתמש התחבר בהצלחה",
+        "login-error": "ההתחברות נכשלה"
+      }
+    },
+    "customers": {
+      "no-customers": "אין לקוחות זמינים",
+      "addCustomer": "הוסף לקוח",
+      "editCustomer": "ערוך לקוח",
+      "messages": {
+        "add-success": "הלקוח נוסף בהצלחה",
+        "add-error": "הוספת הלקוח נכשלה",
+        "edit-success": "הלקוח עודכן בהצלחה",
+        "edit-error": "עדכון הלקוח נכשל",
+        "delete-success": "הלקוח נמחק בהצלחה",
+        "delete-error": "מחיקת הלקוח נכשלה"
+      },
+      "rightPanel": {
+        "title-create": "צור קשרים חזקים יותר",
+        "subtitle-create": "הוסף לקוח חדש כדי להתחיל לבנות קשרים מתמשכים וחוויות מותאמות אישית.",
+        "title-edit": "עדכן פרטי לקוח",
+        "subtitle-edit": "ערוך את פרטי הלקוח כדי לשמור על רישומים מדויקים ומעודכנים."
+      },
+      "form": {
+        "labels": {
+          "name": "שם",
+          "businessName": "שם העסק",
+          "backgroundImage": "תמונת רקע",
+          "profileImage": "תמונת פרופיל",
+          "location": "מיקום",
+          "phone": "טלפון",
+          "website": "אתר אינטרנט",
+          "note": "הערה",
+          "isSpecial": "האם לקוח מיוחד?",
+          "services-title": "בחר את השירותים שלך",
+          "add-service": "הוסף שירות חדש",
+          "evaluation": "הערכה"
+        },
+        "buttons": {
+          "submit": "הוסף לקוח",
+          "update": "עדכן לקוח"
+        },
+        "errors": {
+          "required-name": "יש להזין שם",
+          "max-name": "השם יכול להכיל עד 100 תווים",
+          "required-business-name": "יש להזין שם עסק",
+          "max-business-name": "שם העסק יכול להכיל עד 100 תווים",
+          "background-size": "תמונת הרקע חייבת להיות קטנה מ־5MB",
+          "background-type": "רק קבצי JPEG, PNG או WEBP מורשים כרקע",
+          "profile-size": "תמונת הפרופיל חייבת להיות קטנה מ־5MB",
+          "profile-type": "רק קבצי JPEG, PNG או WEBP מורשים כפרופיל",
+          "max-location": "המיקום יכול להכיל עד 100 תווים",
+          "max-phone": "הטלפון יכול להכיל עד 20 תווים",
+          "invalid-website": "הזן כתובת אתר תקפה",
+          "max-note": "ההערה יכולה להכיל עד 500 תווים"
+        }
+      }
+    },
+    "packages": {
+      "year": "שנה",
+      "no-packages": "אין חבילות זמינות",
+      "add-package": "הוסף חבילה",
+      "addPackage": "הוסף חבילה",
+      "editPackage": "ערוך חבילה",
+      "title": "חבילה #{{id}}",
+      "active": "פעילה",
+      "inactive": "לא פעילה",
+      "comingSoon": "בקרוב",
+      "rival": "מתחרה",
+      "monthlyPrice": "מחיר חודשי",
+      "month": "חודש",
+      "services-note": "הערת שירותים",
+      "included-services": "שירותים כלולים",
+      "edit-package": "ערוך חבילה #{{id}}",
+      "delete-package": "מחק חבילה #{{id}}",
+      "review-title": "סקור את החבילה שלך",
+      "review-description": "אנא בדוק את כל הפרטים לפני שליחה.",
+      "no-services": "לא נוספו שירותים עדיין",
+      "fetch-error": "שליפת החבילה נכשלה",
+      "edit-success": "החבילה עודכנה בהצלחה",
+      "edit-error": "עדכון החבילה נכשל",
+      "add-success": "החבילה נוספה בהצלחה",
+      "add-error": "הוספת החבילה נכשלה",
+      "meta": {
+        "yearly": "שנתי"
+      },
+      "status": {
+        "active": "פעילה",
+        "inactive": "לא פעילה"
+      },
+      "actions": {
+        "edit": "ערוך חבילה #{{id}}",
+        "delete": "מחק חבילה #{{id}}"
+      },
+      "common": {
+        "cancel": "ביטול",
+        "delete": "מחק"
+      },
+      "buttons": {
+        "cancel": "ביטול",
+        "delete": "מחק"
+      },
+      "types": {
+        "basic": "בסיסית",
+        "premium": "פרימיום",
+        "golden": "זהב"
+      },
+      "form": {
+        "labels": {
+          "priceMonthly": "מחיר חודשי",
+          "priceYearly": "מחיר שנתי",
+          "note": "הערה",
+          "servicesNote": "הערת שירותים",
+          "isActive": "פעילה",
+          "isComingSoon": "בקרוב",
+          "addService": "הוסף שירות",
+          "type": "סוג חבילה",
+          "arNote": "הערה (בערבית)",
+          "enNote": "הערה (באנגלית)",
+          "heNote": "הערה (בעברית)",
+          "arServicesNote": "הערת שירותים (בערבית)",
+          "enServicesNote": "הערת שירותים (באנגלית)",
+          "heServicesNote": "הערת שירותים (בעברית)",
+          "arServiceName": "שם שירות (בערבית)",
+          "enServiceName": "שם שירות (באנגלית)",
+          "heServiceName": "שם שירות (בעברית)"
+        },
+        "placeholders": {
+          "serviceName": "הזן שם שירות",
+          "arServiceName": "הזן שם שירות בערבית",
+          "enServiceName": "הזן שם שירות באנגלית",
+          "heServiceName": "הזן שם שירות בעברית",
+          "serviceNameAr": "הזן שם שירות בערבית",
+          "serviceNameHe": "הזן שם שירות בעברית",
+          "serviceNameEn": "הזן שם שירות באנגלית"
+        },
+        "buttons": {
+          "submit": "שמור שינויים"
+        },
+        "errors": {
+          "required-priceMonthly": "יש להזין מחיר חודשי",
+          "min-priceMonthly": "המחיר החודשי חייב להיות 0 או יותר",
+          "required-priceYearly": "נדרש מחיר שנתי",
+          "min-priceYearly": "המחיר השנתי חייב להיות 0 או יותר",
+          "max-note": "ההערה יכולה להכיל עד 500 תווים",
+          "max-servicesNote": "הערת השירותים יכולה להכיל עד 500 תווים",
+          "required-service-name": "יש להזין שם שירות",
+          "max-service-name": "שם השירות יכול להכיל עד 100 תווים",
+          "required-type": "יש לבחור סוג חבילה",
+          "invalid-type": "סוג חבילה שנבחר אינו תקף",
+          "duplicateService": "שירות עם שם זה כבר קיים"
+        }
+      },
+      "rightPanel": {
+        "title-create": "צור חבילה חדשה",
+        "subtitle-create": "הוסף פרטים על החבילה והשירותים שלך.",
+        "title-edit": "ערוך חבילה",
+        "subtitle-edit": "עדכן את פרטי החבילה והשירותים שלה"
+      },
+      "messages": {
+        "delete-success": "החבילה נמחקה בהצלחה",
+        "delete-error": "מחיקת החבילה נכשלה",
+        "delete-warning": "האם אתה בטוח שברצונך למחוק את החבילה #{{id}}?"
+      }
+    },
+    "services": {
+      "no-services": "לא נמצאו שירותים.",
+      "add-service": "הוסף שירות",
+      "edit-service": "ערוך שירות",
+      "add-success": "השירות נוסף בהצלחה.",
+      "edit-success": "השירות עודכן בהצלחה.",
+      "add-error": "הוספת השירות נכשלה.",
+      "edit-error": "עדכון השירות נכשל.",
+      "actions": {
+        "submit": "הוסף שירות",
+        "update": "עדכן שירות"
+      },
+      "rightPanel": {
+        "title-create": "צור שירות חדש",
+        "subtitle-create": "הוסף פרטים על השירות שלך כולל כותרת, אייקון ותיאור.",
+        "title-edit": "ערוך שירות",
+        "subtitle-edit": "עדכן את המידע וההגדרות של השירות."
+      },
+      "form": {
+        "labels": {
+          "enTitle": "כותרת שירות (EN)",
+          "enDescription": "תיאור שירות (EN)",
+          "arTitle": "כותרת שירות (AR)",
+          "arDescription": "תיאור שירות (AR)",
+          "heTitle": "כותרת שירות (HE)",
+          "heDescription": "תיאור שירות (HE)",
+          "iconSearch": "חפש אייקון...",
+          "selectedIcon": "אייקון נבחר",
+          "order": "סדר"
+        },
+        "errors": {
+          "required-enTitle": "כותרת באנגלית היא חובה",
+          "max-enDescription": "ניתן להזין עד 500 תווים",
+          "required-arTitle": "כותרת בערבית היא חובה",
+          "max-arDescription": "ניתן להזין עד 500 תווים",
+          "required-heTitle": "כותרת בעברית היא חובה",
+          "max-heDescription": "ניתן להזין עד 500 תווים",
+          "required-icon": "יש לבחור אייקון"
+        },
+        "messages": {
+          "delete-success": "השירות נמחק בהצלחה",
+          "delete-error": "אירעה שגיאה בעת מחיקת השירות"
+        }
+      }
+    },
+    "settings": {
+      "title": "הגדרות",
+      "sections": {
+        "edit-password": "שינוי סיסמה",
+        "edit-phone": "עדכון מספר טלפון",
+        "edit-global": "הגדרות כלליות"
+      },
+      "form": {
+        "labels": {
+          "password": "סיסמה נוכחית",
+          "newPassword": "סיסמה חדשה",
+          "newPhone": "מספר טלפון חדש",
+          "whatsapp": "וואטסאפ",
+          "instagram": "אינסטגרם",
+          "tiktok": "טיקטוק",
+          "youtube": "יוטיוב",
+          "email": "כתובת אימייל",
+          "location": "מיקום העסק",
+          "mobileNumber": "מספר נייד",
+          "customersNumber": "מספר לקוחות",
+          "packagesNumber": "מספר חבילות",
+          "arTitle": "כותרת (בערבית)",
+          "enTitle": "כותרת (באנגלית)",
+          "heTitle": "כותרת (בעברית)",
+          "arSubtitle": "כותרת משנה (בערבית)",
+          "enSubtitle": "כותרת משנה (באנגלית)",
+          "heSubtitle": "כותרת משנה (בעברית)",
+          "arHeroCustomersTitle": "כותרת גיבור לקוחות (ערבית)",
+          "enHeroCustomersTitle": "כותרת גיבור לקוחות (אנגלית)",
+          "heHeroCustomersTitle": "כותרת גיבור לקוחות (עברית)",
+          "arHeroPackagesTitle": "כותרת גיבור חבילות (ערבית)",
+          "enHeroPackagesTitle": "כותרת גיבור חבילות (אנגלית)",
+          "heHeroPackagesTitle": "כותרת גיבור חבילות (עברית)",
+          "arHeroCustomersSubtitle": "כותרת משנה לגיבור לקוחות (ערבית)",
+          "enHeroCustomersSubtitle": "כותרת משנה לגיבור לקוחות (אנגלית)",
+          "heHeroCustomersSubtitle": "כותרת משנה לגיבור לקוחות (עברית)",
+          "arHeroPackagesSubtitle": "כותרת משנה לגיבור חבילות (ערבית)",
+          "enHeroPackagesSubtitle": "כותרת משנה לגיבור חבילות (אנגלית)",
+          "heHeroPackagesSubtitle": "כותרת משנה לגיבור חבילות (עברית)",
+          "arServicesTitle": "כותרת שירותים בערבית",
+          "enServicesTitle": "כותרת שירותים באנגלית",
+          "heServicesTitle": "כותרת שירותים בעברית",
+          "arServicesSubtitle": "כותרת משנה של שירותים בערבית",
+          "enServicesSubtitle": "כותרת משנה של שירותים באנגלית",
+          "heServicesSubtitle": "כותרת משנה של שירותים בעברית",
+          "arCustomersTitle": "כותרת לקוחות בערבית",
+          "enCustomersTitle": "כותרת לקוחות באנגלית",
+          "heCustomersTitle": "כותרת לקוחות בעברית",
+          "arCustomersSubtitle": "כותרת משנה של לקוחות בערבית",
+          "enCustomersSubtitle": "כותרת משנה של לקוחות באנגלית",
+          "heCustomersSubtitle": "כותרת משנה של לקוחות בעברית",
+          "arPackagesTitle": "כותרת חבילות בערבית",
+          "enPackagesTitle": "כותרת חבילות באנגלית",
+          "hePackagesTitle": "כותרת חבילות בעברית",
+          "arPackagesSubtitle": "כותרת משנה של חבילות בערבית",
+          "enPackagesSubtitle": "כותרת משנה של חבילות באנגלית",
+          "hePackagesSubtitle": "כותרת משנה של חבילות בעברית"
+        },
+        "placeholders": {
+          "password": "הזן את הסיסמה הנוכחית",
+          "newPassword": "הזן סיסמה חדשה",
+          "newPhone": "הזן מספר טלפון חדש",
+          "location": "הזן כתובת או עיר"
+        },
+        "buttons": {
+          "updatePassword": "עדכן סיסמה",
+          "updatePhone": "עדכן טלפון",
+          "saveGlobal": "שמור הגדרות",
+          "save": "שמור",
+          "saving": "שומר..."
+        },
+        "errors": {
+          "required-password": "יש להזין סיסמה נוכחית.",
+          "required-newPassword": "יש להזין סיסמה חדשה.",
+          "min-newPassword": "הסיסמה חייבת להכיל לפחות 6 תווים.",
+          "required-newPhone": "יש להזין מספר טלפון חדש.",
+          "invalid-phone": "הזן מספר טלפון תקין.",
+          "invalid-url": "יש להזין כתובת URL תקינה.",
+          "invalid-email": "יש להזין כתובת אימייל תקינה."
+        }
+      },
+      "messages": {
+        "password-success": "הסיסמה עודכנה בהצלחה.",
+        "password-error": "עדכון הסיסמה נכשל. נסה שוב.",
+        "phone-success": "מספר הטלפון עודכן בהצלחה.",
+        "phone-error": "עדכון מספר הטלפון נכשל.",
+        "settings-success": "ההגדרות עודכנו בהצלחה.",
+        "settings-error": "עדכון ההגדרות נכשל."
+      }
+    },
+    "landing": {
+      "hero": {
+        "title": "צרו את עמוד העסק שלכם ב־",
+        "subtitle": "הזמינו, הציגו וגדלו אונליין. שמרו לעצמכם עמוד ייחודי והתחילו למשוך לקוחות עוד היום!",
+        "buttons": {
+          "subscribe": "הירשמו עכשיו",
+          "explore-customers": "הלקוחות שלנו"
+        }
+      },
+      "customers": {
+        "book": "הזמן עכשיו",
+        "special": "מיוחד"
+      },
+      "packages": {
+        "type": {
+          "basic": "בסיסית",
+          "premium": "פרימיום",
+          "golden": "זהב"
+        },
+        "monthly": "חודשי",
+        "yearly": "שנתי",
+        "subscribe": "הירשם",
+        "soon": "בקרוב"
+      },
+      "contact": {
+        "msg": "יש לכם שאלה או זקוקים לעזרה? פנו אלינו!",
+        "form": {
+          "title": "שלחו לנו הודעה",
+          "labels": {
+            "name": "שם",
+            "phone": "טלפון",
+            "message": "הודעה"
+          },
+          "placeholders": {
+            "name": "השם המלא שלך",
+            "phone": "מספר הטלפון שלך",
+            "message": "כתוב את ההודעה כאן..."
+          },
+          "buttons": {
+            "send": "שלח הודעה",
+            "sending": "שולח..."
+          },
+          "errors": {
+            "name": "השם הוא שדה חובה",
+            "phone": "מספר הטלפון הוא שדה חובה",
+            "message": "ההודעה לא יכולה להיות ריקה"
+          }
+        },
+        "messages": {
+          "success": "ההודעה נשלחה בהצלחה!",
+          "error": "משהו השתבש. נסה שוב."
+        },
+        "socials": {
+          "mobileNumber": "טלפון",
+          "email": "אימייל",
+          "whatsapp": "וואטסאפ",
+          "instagram": "אינסטגרם",
+          "tiktok": "טיקטוק",
+          "youtube": "יוטיוב",
+          "location": "מיקום"
+        }
+      }
+    },
+    "requests": {
+      "addRequest": "הוסף בקשה",
+      "no-requests": "אין בקשות זמינות כרגע.",
+      "welcomeMessage": "ברוך הבא! אנחנו שמחים שאתה כאן. אנא מלא את הפרטים הבאים כדי להתחיל את תהליך ההרשמה.",
+      "convert": "המר",
+      "convert-warning": "האם אתה בטוח שברצונך להמיר את הבקשה ללקוח עבור",
+      "convert-success": "הבקשה הומרה ללקוח בהצלחה",
+      "convert-error": "המרת הבקשה ללקוח נכשלה",
+      "types": {
+        "basic": "בסיסית",
+        "premium": "פרימיום",
+        "golden": "זהב"
+      },
+      "form": {
+        "labels": {
+          "name": "שם",
+          "businessName": "שם העסק",
+          "phone": "מספר טלפון",
+          "package": "חבילה"
+        },
+        "buttons": {
+          "submit": "שלח בקשה"
+        },
+        "errors": {
+          "name": "שם הוא שדה חובה",
+          "businessName": "שם העסק הוא שדה חובה",
+          "phone": "מספר הטלפון הוא שדה חובה",
+          "package": "יש לבחור חבילה"
+        }
+      },
+      "messages": {
+        "add-success": "הבקשה נשלחה בהצלחה",
+        "add-error": "שליחת הבקשה נכשלה"
+      },
+      "rightPanel": {
+        "title-create": "צור בקשה חדשה",
+        "subtitle-create": "מלא את הטופס ושלח את הבקשה"
+      }
+    }
+  }
+}

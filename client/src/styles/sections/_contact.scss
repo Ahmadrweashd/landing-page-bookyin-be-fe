@@ -1,0 +1,29 @@
+#contact {
+  .contact-item {
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    a {
+      span {
+        color: var(--c-text);
+      }
+
+      &:hover {
+        span {
+          color: var(--c-main);
+        }
+      }
+
+      span {
+        &.text-truncate {
+          text-overflow: ellipsis;
+        }
+
+        &.icon {
+          width: 18px;
+        }
+      }
+    }
+  }
+}

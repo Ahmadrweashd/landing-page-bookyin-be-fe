@@ -1,0 +1,18 @@
+.loading-box {
+  background-color: #333;
+
+  .animated-shape {
+    @include animation(loading-box, infinite ease-in-out 3s);
+
+    &:after {
+      content: "";
+      background-color: #515151;
+      width: 20%;
+      height: 180%;
+      @include prefixer(transform, rotateZ(8deg) translateY(-50%));
+      position: absolute;
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+    }
+  }
+}

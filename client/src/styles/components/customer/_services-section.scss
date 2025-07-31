@@ -1,0 +1,26 @@
+#services-section {
+
+  .selected-services-window {
+    height: 100px;
+    max-height: 100px;
+
+    .badge-selected-services {
+      &:hover {
+        background-color: var(--c-main-hover);
+      }
+    }
+  }
+
+  .filtered-services-window {
+    height: 100px;
+    max-height: 200px;
+
+    .badge-filtered-services {
+      background-color: var(--bs-secondary);
+
+      &:hover {
+        background-color: var(--c-main);
+      }
+    }
+  }
+}

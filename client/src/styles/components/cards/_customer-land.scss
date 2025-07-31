@@ -1,0 +1,37 @@
+.customer-wrapper {
+  height: 200px;
+
+  .overlay {
+    background-color: var(--c-gray);
+    width: 90%;
+    height: 110%;
+    top: -10%;
+    z-index: 1;
+
+
+    &.ltr {
+      right: -5%;
+      left: auto;
+    }
+
+    &.rtl {
+      left: -5%;
+      right: auto;
+    }
+  }
+
+  .customer-land {
+    z-index: 1;
+
+    .profile-image {
+      top: -35px;
+      left: 15px;
+      right: auto;
+
+      &.rtl {
+        left: auto;
+        right: 15px;
+      }
+    }
+  }
+}

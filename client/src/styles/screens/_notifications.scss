@@ -1,0 +1,32 @@
+#notifications-wrapper {
+  .msgs-container {
+    height: calc(100vh - 72px);
+    overflow: auto;
+
+    .card-message {
+      &:hover {
+        background-color: rgba(241, 241, 241, 0.204);
+        opacity: 0.85;
+      }
+
+      .profile {
+        background-color: var(--c-main);
+        width: 35px;
+        height: 35px;
+      }
+
+      .msg {
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  .msg-container {
+    max-width: 100%;
+    white-space: break;
+    white-space: pre-wrap;
+  }
+}

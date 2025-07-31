@@ -1,0 +1,19 @@
+#hero {
+  .overlay {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @include prefixer(filter, blur(5px));
+    z-index: -1;
+  }
+
+  .btn {
+    width: 180px;
+  }
+
+  .data-counts {
+    & > div {
+      width: 240px;
+    }
+  }
+}

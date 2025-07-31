@@ -1,0 +1,169 @@
+@include keyf("appear") {
+  from {
+    @include set-position(auto, -210px, 15px, auto);
+  }
+
+  to {
+    @include set-position(auto, 15px, 15px, auto);
+  }
+}
+
+@include keyf("popup") {
+  0% {
+    @include prefixer(transform, scale(0));
+  }
+
+  75% {
+    @include prefixer(transform, scale(1.2));
+  }
+
+  100% {
+    @include prefixer(transform, scale(1));
+  }
+}
+
+@include keyf("loading-box") {
+  from {
+    @include set-position(50%, auto, auto, -100%);
+  }
+
+  to {
+    @include set-position(50%, auto, auto, 120%);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    @include prefixer(transform, scale(1));
+    opacity: 1;
+  }
+
+  50% {
+    @include prefixer(transform, scale(1.05));
+    opacity: 0.8;
+  }
+
+  100% {
+    @include prefixer(transform, scale(1));
+    opacity: 1;
+  }
+}
+
+@include keyf("up") {
+  from {
+    @include prefixer(transform, translateY(100px));
+  }
+
+  to {
+    @include prefixer(transform, translateY(0));
+    @include opacity(1);
+  }
+}
+
+@include keyf("down") {
+  from {
+    @include prefixer(transform, translateY(-100px));
+  }
+
+  to {
+    @include prefixer(transform, translateY(0));
+    @include opacity(1);
+  }
+}
+
+@include keyf("popup-up") {
+  from {
+    @include prefixer(transform, translateY(100px) scale(0.1));
+  }
+
+  to {
+    @include prefixer(transform, translateY(0) scale(1));
+    @include opacity(1);
+  }
+}
+
+@include keyf("big") {
+  from {
+    @include prefixer(transform, scale(0));
+  }
+
+  to {
+    @include prefixer(transform, scale(1));
+    @include opacity(1);
+  }
+}
+
+@include keyf("right") {
+  from {
+    @include prefixer(transform, translateX(-100px));
+    @include opacity(0);
+  }
+
+  to {
+    @include prefixer(transform, translateX(0));
+    @include opacity(1);
+  }
+}
+
+@include keyf("left") {
+  from {
+    @include prefixer(transform, translateX(100px));
+    @include opacity(0);
+  }
+
+  to {
+    @include prefixer(transform, translateX(0));
+    @include opacity(1);
+  }
+}
+
+@include keyf("right-big") {
+  from {
+    @include prefixer(transform, translateX(-100) scale(0));
+  }
+
+  to {
+    @include prefixer(transform, translateX(0) scale(1));
+    @include opacity(1);
+  }
+}
+
+@include keyf("left-big") {
+  from {
+    @include prefixer(transform, translateX(+100px) scale(0));
+  }
+
+  to {
+    @include prefixer(transform, translateX(0) scale(1));
+    @include opacity(1);
+  }
+}
+
+@include keyf("bomb") {
+  0% {
+    @include prefixer(transform, scale(0));
+    @include opacity(0);
+  }
+
+  65% {
+    @include prefixer(transform, scale(1.1));
+    @include opacity(1);
+  }
+
+  100% {
+    @include prefixer(transform, scale(1));
+    @include opacity(1);
+  }
+}

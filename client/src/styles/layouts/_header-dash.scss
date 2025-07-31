@@ -1,0 +1,23 @@
+#header-dash {
+  height: 72px;
+
+  .icon {
+    color: var(--c-text);
+
+    &:hover {
+      color: var(--c-main-hover);
+    }
+
+    &.active {
+      color: var(--c-main);
+
+      .settings {
+        @include animation(rotate, 3s infinite linear);
+      }
+    }
+
+    &.leave:hover {
+      color: var(--bs-danger);
+    }
+  }
+}

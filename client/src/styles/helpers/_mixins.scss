@@ -1,0 +1,81 @@
+@mixin keyf($anim-name) {
+  @-webkit-keyframes #{$anim-name} {
+    @content;
+  }
+
+  @keyframes #{$anim-name} {
+    @content;
+  }
+}
+
+@mixin animation($name, $properties) {
+  animation: #{$name} #{$properties};
+  -webkit-animation: #{$name} #{$properties};
+}
+
+@mixin breakpoints($point) {
+  @if $point ==xs {
+    @media #{$xs} {
+      @content;
+    }
+  }
+
+  @else if $point ==sm {
+    @media #{$sm} {
+      @content;
+    }
+  }
+
+  @else if $point ==md {
+    @media #{$md} {
+      @content;
+    }
+  }
+
+  @else if $point ==lg {
+    @media #{$lg} {
+      @content;
+    }
+  }
+
+  @else if $point ==xl {
+    @media #{$xl} {
+      @content;
+    }
+  }
+
+  @else if $point ==xxl {
+    @media #{$xxl} {
+      @content;
+    }
+  }
+
+  @else {
+    @media #{$point} {
+      @content;
+    }
+  }
+}
+
+@mixin prefixer($property, $value) {
+  $prefixes: webkit ms moz o;
+  #{$property}: $value;
+
+  @each $prefix in $prefixes {
+    #{'-'+$prefix + '-' + $property}: $value;
+  }
+}
+
+@mixin opacity($value) {
+  $opacity-ie: $value * 100;
+  filter: alpha(opacity=$opacity-ie);
+  -webkit-filter: alpha(opacity=$opacity-ie);
+  opacity: $value;
+}
+
+@mixin set-position($top, $right, $bottom, $left) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

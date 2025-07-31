@@ -1,0 +1,34 @@
+  .gradient-banner {
+    background: linear-gradient(135deg, var(--c-main) 0%, var(--c-main-hover) 100%);
+    position: relative;
+    height: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+
+    &::before,
+    &::after {
+      content: "";
+      background: rgba(255, 255, 255, 0.1);
+      @include prefixer(border-radius, 50%);
+      position: absolute;
+    }
+
+    &::before {
+      width: 150px;
+      height: 150px;
+      top: 20%;
+      left: -50px;
+    }
+
+    &::after {
+      width: 100px;
+      height: 100px;
+      bottom: 10%;
+      right: -40px;
+    }
+  }
+
+  .fade-in {
+    @include animation(fadeInUp, 1s ease-out);
+  }

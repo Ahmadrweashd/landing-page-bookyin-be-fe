@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 72px 0 0 0;
+}
+
+body {
+  font-size: 16px;
+
+  color: var(--c-text);
+
+  &.en {
+    font-family: "Inter", sans-serif;
+  }
+
+  &.ar {
+    font-family: "Cairo", sans-serif;
+  }
+
+  .he {
+    font-family: "Assistant", sans-serif;
+  }
+}
+
+*[data-ani] {
+  @include opacity(0);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--c-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--c-main-hover);
+  border: 3px solid var(--c-main-hover);
+  @include prefixer(border-radius, 5px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-main-hover);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  list-style: none !important;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background-color: transparent;
+  border: 1px solid transparent !important;
+  border-bottom-color: var(--c-main) !important;
+  border-left-color: var(--c-main) !important;
+  @include prefixer(transition, var(--t-03));
+  outline: none;
+  resize: none !important;
+
+  &::placeholder {
+    @include prefixer(transition, var(--t-03));
+  }
+
+  &:focus {
+    background-color: var(--c-gray) !important;
+    box-shadow: none !important;
+    border-color: var(--c-main) !important;
+
+    &::placeholder {
+      @include opacity(0);
+    }
+  }
+
+  &:not(:placeholder-shown) {
+    @include prefixer(transition, var(--t-03));
+    border-color: var(--c-main) !important;
+  }
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="checkbox"] {
+  background-color: transparent;
+  border: 1px solid var(--c-main) !important;
+  outline: none;
+  box-shadow: none !important;
+
+  &:checked {
+    background-color: var(--c-main) !important;
+    border-color: var(--c-main) !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--f-important);
+}
+
+section {
+  padding: 50px 0;
+}
+
+main {
+  background-color: var(--c-background);
+  height: calc(100vh - 72px);
+  max-height: calc(100vh - 72px);
+  flex: 1;
+  padding: 15px 4px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

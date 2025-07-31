@@ -1,0 +1,477 @@
+{
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No messages",
+    "view-all": "View all notifications",
+    "selectMessage": "Select a message to view details",
+    "delete": "Delete",
+    "info": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "global": {
+    "packages": "Packages",
+    "package": "Package",
+    "settings": "Settings",
+    "customers": "Customers",
+    "customer": "Customer",
+    "requests": "Requests",
+    "request": "Request",
+    "services": "Services",
+    "bookyin": "Bookyin",
+    "home": "Home",
+    "contact": "Contact us"
+  },
+  "common": {
+    "next": "next",
+    "previous": "previous",
+    "add": "Add",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "are-you-sure-delete": "Are you sure you want to delete",
+    "explore": "Explore",
+    "explore-more": "Explore more",
+    "back": "Back"
+  },
+  "languages": {
+    "english": "English",
+    "arabic": "العربية",
+    "hebrew": "עברית"
+  },
+  "components": {
+    "not-found": {
+      "msg": "Page not found 404!",
+      "btn": "Go home"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Welcome back",
+      "greeting": "WELCOME",
+      "left-text": "Your headline name with some additional informative text that encourages users to sign in.",
+      "form": {
+        "labels": {
+          "phone": "Phone",
+          "password": "Password"
+        },
+        "placeholders": {
+          "phone": "Enter your mobile number",
+          "password": "Enter your password"
+        },
+        "errors": {
+          "required-phone": "Phone number is required",
+          "required-password": "Password is required",
+          "short-password": "Password must be at least 6 characters"
+        }
+      },
+      "buttons": {
+        "signin": "Sign in",
+        "signing-in": "Signing in..."
+      },
+      "messages": {
+        "login-success": "User logged in successfully",
+        "login-error": "Logging in failed"
+      }
+    },
+    "customers": {
+      "no-customers": "No customers available",
+      "addCustomer": "Add Customer",
+      "editCustomer": "Edit Customer",
+      "messages": {
+        "add-success": "Customer added successfully",
+        "add-error": "Failed to add customer",
+        "edit-success": "Customer updated successfully",
+        "edit-error": "Failed to update customer",
+        "delete-success": "Customer deleted successfully",
+        "delete-error": "Failed to delete customer"
+      },
+      "rightPanel": {
+        "title-create": "Create Stronger Connections",
+        "subtitle-create": "Add a new customer to start building lasting relationships and personalized experiences.",
+        "title-edit": "Update Customer Information",
+        "subtitle-edit": "Edit customer details to keep your records accurate and up to date."
+      },
+      "form": {
+        "labels": {
+          "name": "Name",
+          "businessName": "Business Name",
+          "backgroundImage": "Background Image",
+          "profileImage": "Profile Image",
+          "location": "Location",
+          "phone": "Phone",
+          "website": "Website",
+          "note": "Note",
+          "isSpecial": "Is Special Customer?",
+          "services-title": "Select your sevres",
+          "add-service": "Add new serves",
+          "evaluation": "Evaluation"
+        },
+        "buttons": {
+          "submit": "Add Customer",
+          "update": "Update Customer"
+        },
+        "errors": {
+          "required-name": "Name is required",
+          "max-name": "Name must be at most 100 characters",
+          "required-business-name": "Business name is required",
+          "max-business-name": "Business name must be at most 100 characters",
+          "background-size": "Background image must be less than 5MB",
+          "background-type": "Only JPEG, PNG, or WEBP images are allowed for background",
+          "profile-size": "Profile image must be less than 5MB",
+          "profile-type": "Only JPEG, PNG, or WEBP images are allowed for profile",
+          "max-location": "Location must be at most 100 characters",
+          "max-phone": "Phone must be at most 20 characters",
+          "invalid-website": "Enter a valid website URL",
+          "max-note": "Note must be at most 500 characters"
+        }
+      }
+    },
+    "packages": {
+      "year": "year",
+      "no-packages": "No packages available",
+      "add-package": "Add Package",
+      "addPackage": "Add Package",
+      "editPackage": "Edit Package",
+      "title": "Package #{{id}}",
+      "active": "Active",
+      "inactive": "Inactive",
+      "comingSoon": "Coming Soon",
+      "rival": "Rival",
+      "monthlyPrice": "Monthly Price",
+      "month": "month",
+      "services-note": "Services Note",
+      "included-services": "Included Services",
+      "edit-package": "Edit package #{{id}}",
+      "delete-package": "Delete package #{{id}}",
+      "review-title": "Review your package",
+      "review-description": "Please check all details before submitting.",
+      "no-services": "No services added yet",
+      "fetch-error": "Failed to fetch package",
+      "edit-success": "Package updated successfully",
+      "edit-error": "Failed to update package",
+      "add-success": "Package added successfully",
+      "add-error": "Failed to add package",
+      "meta": {
+        "yearly": "Yearly"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "actions": {
+        "edit": "Edit package #{{id}}",
+        "delete": "Delete package #{{id}}"
+      },
+      "common": {
+        "cancel": "Cancel",
+        "delete": "Delete"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "delete": "Delete"
+      },
+      "types": {
+        "basic": "Basic",
+        "premium": "Premium",
+        "golden": "Golden"
+      },
+      "form": {
+        "labels": {
+          "priceMonthly": "Monthly Price",
+          "priceYearly": "Yearly Price",
+          "note": "Note",
+          "servicesNote": "Services Note",
+          "isActive": "Active",
+          "isComingSoon": "Coming Soon",
+          "addService": "Add Service",
+          "type": "Package Type",
+          "arNote": "Note (Arabic)",
+          "enNote": "Note (English)",
+          "heNote": "Note (Hebrew)",
+          "arServicesNote": "Services Note (Arabic)",
+          "enServicesNote": "Services Note (English)",
+          "heServicesNote": "Services Note (Hebrew)",
+          "arServiceName": "Service Name (Arabic)",
+          "enServiceName": "Service Name (English)",
+          "heServiceName": "Service Name (Hebrew)"
+        },
+        "placeholders": {
+          "serviceName": "Enter service name",
+          "arServiceName": "Enter service name in Arabic",
+          "enServiceName": "Enter service name in English",
+          "heServiceName": "Enter service name in Hebrew",
+          "serviceNameAr": "Enter service name in Arabic",
+          "serviceNameHe": "Enter service name in Hebrew",
+          "serviceNameEn": "Enter service name in English"
+        },
+        "buttons": {
+          "submit": "Save Changes"
+        },
+        "errors": {
+          "required-priceMonthly": "Monthly price is required",
+          "min-priceMonthly": "Monthly price must be 0 or more",
+          "required-priceYearly": "Yearly price is required",
+          "min-priceYearly": "Yearly price must be 0 or more",
+          "max-note": "Note must be at most 500 characters",
+          "max-servicesNote": "Services note must be at most 500 characters",
+          "required-service-name": "Service name is required",
+          "max-service-name": "Service name must be at most 100 characters",
+          "required-type": "Package type is required",
+          "invalid-type": "Invalid package type selected",
+          "duplicateService": "Service with this name already exists"
+        }
+      },
+      "rightPanel": {
+        "title-create": "Create New Package",
+        "subtitle-create": "Add details about your package and services.",
+        "title-edit": "Edit Package",
+        "subtitle-edit": "Update the details and services of this package"
+      },
+      "messages": {
+        "delete-success": "Package deleted successfully",
+        "delete-error": "Failed to delete package",
+        "delete-warning": "Are you sure you want to delete package #{{id}}?"
+      }
+    },
+    "services": {
+      "no-services": "No services found.",
+      "add-service": "Add Service",
+      "edit-service": "Edit Service",
+      "add-success": "Service added successfully.",
+      "edit-success": "Service updated successfully.",
+      "add-error": "Failed to add the service.",
+      "edit-error": "Failed to update the service.",
+      "actions": {
+        "submit": "Add Service",
+        "update": "Update Service"
+      },
+      "rightPanel": {
+        "title-create": "Create New Service",
+        "subtitle-create": "Add details about your service, including title, icon, and description.",
+        "title-edit": "Edit Service",
+        "subtitle-edit": "Update the information and settings of this service."
+      },
+      "form": {
+        "labels": {
+          "enTitle": "Service Title (EN)",
+          "enDescription": "Service Description (EN)",
+          "arTitle": "Service Title (AR)",
+          "arDescription": "Service Description (AR)",
+          "heTitle": "Service Title (HE)",
+          "heDescription": "Service Description (HE)",
+          "iconSearch": "Search for an icon...",
+          "selectedIcon": "Selected Icon",
+          "order": "Order"
+        },
+        "errors": {
+          "required-enTitle": "English title is required",
+          "max-enDescription": "Maximum 500 characters allowed",
+          "required-arTitle": "Arabic title is required",
+          "max-arDescription": "Maximum 500 characters allowed",
+          "required-heTitle": "Hebrew title is required",
+          "max-heDescription": "Maximum 500 characters allowed",
+          "required-icon": "Icon is required"
+        },
+        "messages": {
+          "delete-success": "Service deleted successfully",
+          "delete-error": "An error occurred while deleting the service"
+        }
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "sections": {
+        "edit-password": "Change Password",
+        "edit-phone": "Update Phone Number",
+        "edit-global": "Global Settings"
+      },
+      "form": {
+        "labels": {
+          "password": "Current Password",
+          "newPassword": "New Password",
+          "newPhone": "New Phone Number",
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "youtube": "YouTube",
+          "email": "Email Address",
+          "location": "Business Location",
+          "mobileNumber": "Mobile Number",
+          "customersNumber": "Number of customers",
+          "packagesNumber": "Number of packages",
+          "arTitle": "Title (Arabic)",
+          "enTitle": "Title (English)",
+          "heTitle": "Title (Hebrew)",
+          "arSubtitle": "Subtitle (Arabic)",
+          "enSubtitle": "Subtitle (English)",
+          "heSubtitle": "Subtitle (Hebrew)",
+          "arHeroCustomersTitle": "Hero Customers Title (Arabic)",
+          "enHeroCustomersTitle": "Hero Customers Title (English)",
+          "heHeroCustomersTitle": "Hero Customers Title (Hebrew)",
+          "arHeroPackagesTitle": "Hero Packages Title (Arabic)",
+          "enHeroPackagesTitle": "Hero Packages Title (English)",
+          "heHeroPackagesTitle": "Hero Packages Title (Hebrew)",
+          "arHeroCustomersSubtitle": "Hero Customers Subtitle (Arabic)",
+          "enHeroCustomersSubtitle": "Hero Customers Subtitle (English)",
+          "heHeroCustomersSubtitle": "Hero Customers Subtitle (Hebrew)",
+          "arHeroPackagesSubtitle": "Hero Packages Subtitle (Arabic)",
+          "enHeroPackagesSubtitle": "Hero Packages Subtitle (English)",
+          "heHeroPackagesSubtitle": "Hero Packages Subtitle (Hebrew)",
+          "arServicesTitle": "Arabic Services Title",
+          "enServicesTitle": "English Services Title",
+          "heServicesTitle": "Hebrew Services Title",
+          "arServicesSubtitle": "Arabic Services Subtitle",
+          "enServicesSubtitle": "English Services Subtitle",
+          "heServicesSubtitle": "Hebrew Services Subtitle",
+          "arCustomersTitle": "Arabic Customers Title",
+          "enCustomersTitle": "English Customers Title",
+          "heCustomersTitle": "Hebrew Customers Title",
+          "arCustomersSubtitle": "Arabic Customers Subtitle",
+          "enCustomersSubtitle": "English Customers Subtitle",
+          "heCustomersSubtitle": "Hebrew Customers Subtitle",
+          "arPackagesTitle": "Arabic Packages Title",
+          "enPackagesTitle": "English Packages Title",
+          "hePackagesTitle": "Hebrew Packages Title",
+          "arPackagesSubtitle": "Arabic Packages Subtitle",
+          "enPackagesSubtitle": "English Packages Subtitle",
+          "hePackagesSubtitle": "Hebrew Packages Subtitle"
+        },
+        "placeholders": {
+          "password": "Enter your current password",
+          "newPassword": "Enter a new password",
+          "newPhone": "Enter new phone number",
+          "location": "Enter your address or city"
+        },
+        "buttons": {
+          "updatePassword": "Update Password",
+          "updatePhone": "Update Phone",
+          "saveGlobal": "Save Settings",
+          "save": "Save",
+          "saving": "Saving..."
+        },
+        "errors": {
+          "required-password": "Current password is required.",
+          "required-newPassword": "New password is required.",
+          "min-newPassword": "Password must be at least 6 characters.",
+          "required-newPhone": "New phone number is required.",
+          "invalid-phone": "Enter a valid phone number.",
+          "invalid-url": "Please enter a valid URL.",
+          "invalid-email": "Please enter a valid email address."
+        }
+      },
+      "messages": {
+        "password-success": "Password updated successfully.",
+        "password-error": "Failed to update password. Please try again.",
+        "phone-success": "Phone number updated successfully.",
+        "phone-error": "Failed to update phone number.",
+        "settings-success": "Settings updated successfully.",
+        "settings-error": "Failed to update settings."
+      }
+    },
+    "landing": {
+      "hero": {
+        "title": "Create your business page on",
+        "subtitle": "Book, showcase, and grow your business online. Claim your unique page and start attracting customers today!",
+        "buttons": {
+          "subscribe": "Subscribe Now",
+          "explore-customers": "Our Customers"
+        }
+      },
+      "customers": {
+        "book": "Book Now",
+        "special": "Special"
+      },
+      "packages": {
+        "type": {
+          "basic": "Basic",
+          "premium": "Premium",
+          "golden": "Golden"
+        },
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "subscribe": "Subscribe",
+        "soon": "Soon"
+      },
+      "contact": {
+        "msg": "Have a question or need help? Contact us",
+        "form": {
+          "title": "Send Us a Message",
+          "labels": {
+            "name": "Name",
+            "phone": "Phone",
+            "message": "Message"
+          },
+          "placeholders": {
+            "name": "Your full name",
+            "phone": "Your phone number",
+            "message": "Write your message here..."
+          },
+          "buttons": {
+            "send": "Send Message",
+            "sending": "Sending..."
+          },
+          "errors": {
+            "name": "Name is required",
+            "phone": "Phone number is required",
+            "message": "Message cannot be empty"
+          }
+        },
+        "messages": {
+          "success": "Your message was sent successfully!",
+          "error": "Something went wrong. Please try again."
+        },
+        "socials": {
+          "mobileNumber": "Phone",
+          "email": "Email",
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "youtube": "YouTube",
+          "location": "Location"
+        }
+      }
+    },
+    "requests": {
+      "addRequest": "Add Request",
+      "no-requests": "No requests available at the moment.",
+      "welcomeMessage": "Welcome! We’re excited to have you here. Please fill out the details below to begin your subscription journey with us.",
+      "convert": "Convert",
+      "convert-warning": "Are you sure you want to convert this request to a customer for",
+      "convert-success": "Request successfully converted to customer",
+      "convert-error": "Failed to convert request to customer",
+      "types": {
+        "basic": "Basic",
+        "premium": "Premium",
+        "golden": "Golden"
+      },
+      "form": {
+        "labels": {
+          "name": "Name",
+          "businessName": "Business Name",
+          "phone": "Phone Number",
+          "package": "Package"
+        },
+        "buttons": {
+          "submit": "Submit Request"
+        },
+        "errors": {
+          "name": "Name is required",
+          "businessName": "Business name is required",
+          "phone": "Phone number is required",
+          "package": "Package is required"
+        }
+      },
+      "messages": {
+        "add-success": "Request submitted successfully",
+        "add-error": "Failed to submit the request"
+      },
+      "rightPanel": {
+        "title-create": "Create a New Request",
+        "subtitle-create": "Fill out the form to submit your request"
+      }
+    }
+  }
+}

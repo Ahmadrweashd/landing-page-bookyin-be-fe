@@ -1,0 +1,83 @@
+.customer-dash {
+  &.card {
+    height: 100%;
+    transition: var(--t-03);
+  }
+
+  .card-header-container {
+    position: relative;
+
+    .background-image {
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .profile-container {
+      position: absolute;
+      bottom: -40px;
+      left: 20px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid var(--c-background);
+
+      .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .profile-placeholder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--c-main);
+        color: white;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    .icon-badge {
+      color: var(--c-text);
+
+      &.primary:hover {
+        color: var(--bs-primary);
+      }
+
+      &.secondary:hover {
+        color: var(--bs-secondary);
+      }
+
+      &.success:hover {
+        color: var(--bs-success);
+      }
+
+      &.danger:hover {
+        color: var(--bs-danger);
+      }
+
+      &.dark:hover {
+        color: var(--bs-dark);
+      }
+
+      &.info:hover {
+        color: var(--bs-info);
+      }
+    }
+  }
+
+
+  .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

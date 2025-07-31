@@ -1,0 +1,26 @@
+.package-land-card {
+  min-height: 500px;
+  width: 100%;
+  max-width: 320px;
+
+  .overlay {
+    height: 15px;
+    top: -5px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &.exclusive {
+    background: var(--bg-gradient-main);
+
+    .overlay {
+      display: none;
+    }
+
+    &.fantastic {
+      min-height: 600px;
+
+    }
+  }
+}

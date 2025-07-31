@@ -1,0 +1,53 @@
+.land-section-header {
+  color: var(--c-text);
+
+  h1 {
+    z-index: 1;
+    @include prefixer(transition, var(--t-06) ease-in-out);
+
+    &::before,
+    &::after {
+      content: "";
+      background-color: var(--c-main);
+      @include prefixer(border-radius, 50%);
+      position: absolute;
+      top: 50%;
+      z-index: -1;
+      @include prefixer(transform, translateY(-50%));
+      @include prefixer(transition, var(--t-06) ease-in-out);
+      width: 12px;
+      height: 12px;
+    }
+
+    &::before {
+      left: -45px;
+    }
+
+    &::after {
+      right: -45px;
+    }
+
+    &:hover {
+      &::before {
+        left: 50%;
+        right: auto;
+        @include prefixer(transform, translate(-50%, -50%));
+      }
+
+      &::after {
+        left: auto;
+        right: 50%;
+        @include prefixer(transform, translate(50%, -50%));
+      }
+
+      &::before,
+      &::after {
+        width: 120%;
+        height: 110%;
+        @include prefixer(border-radius, 0.5rem);
+      }
+
+      color: white;
+    }
+  }
+}

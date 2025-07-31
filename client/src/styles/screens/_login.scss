@@ -1,0 +1,49 @@
+#login {
+  .login-wrapper {
+    background: linear-gradient(135deg, var(--c-main), var(--c-main-hover));
+  }
+
+  .login-container {
+    width: 900px;
+    max-width: 95%;
+    background-color: var(--c-background);
+  }
+
+  .left-pane {
+    background: linear-gradient(135deg, var(--c-main), var(--c-main-hover));
+    width: 45%;
+
+    &::before,
+    &::after {
+      content: "";
+      background: rgba(255, 255, 255, 0.1);
+      @include prefixer(border-radius, 50%);
+      position: absolute;
+    }
+
+    &::before {
+      width: 150px;
+      height: 150px;
+      top: 20%;
+      left: -50px;
+    }
+
+    &::after {
+      width: 100px;
+      height: 100px;
+      bottom: 10%;
+      right: -40px;
+    }
+  }
+
+  .right-pane {
+    width: 55%;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

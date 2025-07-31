@@ -1,0 +1,477 @@
+{
+  "notifications": {
+    "title": "الإشعارات",
+    "empty": "لا توجد رسائل",
+    "view-all": "عرض جميع الإشعارات",
+    "selectMessage": "اختر رسالة لعرض التفاصيل",
+    "delete": "حذف",
+    "info": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف"
+    }
+  },
+  "global": {
+    "packages": "الحزم",
+    "package": "حزمة",
+    "settings": "الإعدادات",
+    "customers": "العملاء",
+    "customer": "عميل",
+    "requests": "الطلبات",
+    "request": "طلب",
+    "services": "الخدمات",
+    "bookyin": "بوكي-إن",
+    "home": "الصفحة الرئيسية",
+    "contact": "اتصل بنا"
+  },
+  "common": {
+    "next": "التالي",
+    "previous": "السابق",
+    "add": "إضافة",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "are-you-sure-delete": "هل أنت متأكد أنك تريد الحذف؟",
+    "explore": "استكشاف",
+    "explore-more": "استكشاف المزيد",
+    "back": "رجوع"
+  },
+  "languages": {
+    "english": "English",
+    "arabic": "العربية",
+    "hebrew": "עברית"
+  },
+  "components": {
+    "not-found": {
+      "msg": "الصفحة غير موجودة 404!",
+      "btn": "العودة إلى الصفحة الرئيسية"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "subtitle": "مرحبًا بعودتك",
+      "greeting": "أهلاً بك",
+      "left-text": "عنوان رئيسي مع بعض النصوص الإضافية التي تشجع المستخدمين على تسجيل الدخول.",
+      "form": {
+        "labels": {
+          "phone": "رقم الهاتف",
+          "password": "كلمة المرور"
+        },
+        "placeholders": {
+          "phone": "أدخل رقم هاتفك المحمول",
+          "password": "أدخل كلمة المرور"
+        },
+        "errors": {
+          "required-phone": "رقم الهاتف مطلوب",
+          "required-password": "كلمة المرور مطلوبة",
+          "short-password": "يجب أن تكون كلمة المرور 6 أحرف على الأقل"
+        }
+      },
+      "buttons": {
+        "signin": "تسجيل الدخول",
+        "signing-in": "جاري تسجيل الدخول..."
+      },
+      "messages": {
+        "login-success": "تم تسجيل الدخول بنجاح",
+        "login-error": "فشل في تسجيل الدخول"
+      }
+    },
+    "customers": {
+      "no-customers": "لا يوجد عملاء",
+      "addCustomer": "إضافة عميل",
+      "editCustomer": "تعديل عميل",
+      "messages": {
+        "add-success": "تمت إضافة العميل بنجاح",
+        "add-error": "فشل في إضافة العميل",
+        "edit-success": "تم تحديث بيانات العميل بنجاح",
+        "edit-error": "فشل في تحديث بيانات العميل",
+        "delete-success": "تم حذف العميل بنجاح",
+        "delete-error": "فشل في حذف العميل"
+      },
+      "rightPanel": {
+        "title-create": "إنشاء علاقات أقوى",
+        "subtitle-create": "أضف عميلاً جديدًا لبدء بناء علاقات دائمة وتجارب مخصصة.",
+        "title-edit": "تحديث معلومات العميل",
+        "subtitle-edit": "قم بتعديل تفاصيل العميل للحفاظ على سجلاتك دقيقة ومحدثة."
+      },
+      "form": {
+        "labels": {
+          "name": "الاسم",
+          "businessName": "اسم العمل",
+          "backgroundImage": "صورة الخلفية",
+          "profileImage": "صورة الملف الشخصي",
+          "location": "الموقع",
+          "phone": "الهاتف",
+          "website": "الموقع الإلكتروني",
+          "note": "ملاحظة",
+          "isSpecial": "هل هو عميل مميز؟",
+          "services-title": "اختر خدماتك",
+          "add-service": "أضف خدمة جديدة",
+          "evaluation": "التقييم"
+        },
+        "buttons": {
+          "submit": "إضافة عميل",
+          "update": "تحديث العميل"
+        },
+        "errors": {
+          "required-name": "الاسم مطلوب",
+          "max-name": "يجب ألا يزيد الاسم عن 100 حرف",
+          "required-business-name": "اسم العمل مطلوب",
+          "max-business-name": "يجب ألا يزيد اسم العمل عن 100 حرف",
+          "background-size": "يجب ألا تتجاوز صورة الخلفية 5 ميغابايت",
+          "background-type": "يُسمح فقط بصور JPEG أو PNG أو WEBP للخلفية",
+          "profile-size": "يجب ألا تتجاوز صورة الملف الشخصي 5 ميغابايت",
+          "profile-type": "يُسمح فقط بصور JPEG أو PNG أو WEBP للملف الشخصي",
+          "max-location": "يجب ألا يزيد الموقع عن 100 حرف",
+          "max-phone": "يجب ألا يزيد رقم الهاتف عن 20 حرف",
+          "invalid-website": "يرجى إدخال رابط موقع إلكتروني صحيح",
+          "max-note": "يجب ألا تزيد الملاحظة عن 500 حرف"
+        }
+      }
+    },
+    "packages": {
+      "year": "سنة",
+      "no-packages": "لا توجد حزم متاحة",
+      "add-package": "إضافة حزمة",
+      "addPackage": "إضافة حزمة",
+      "editPackage": "تعديل حزمة",
+      "title": "الحزمة رقم #{{id}}",
+      "active": "نشطة",
+      "inactive": "غير نشطة",
+      "comingSoon": "قريباً",
+      "rival": "منافس",
+      "monthlyPrice": "السعر الشهري",
+      "month": "شهر",
+      "services-note": "ملاحظة حول الخدمات",
+      "included-services": "الخدمات المتضمنة",
+      "edit-package": "تعديل الحزمة رقم #{{id}}",
+      "delete-package": "حذف الحزمة رقم #{{id}}",
+      "review-title": "مراجعة الحزمة",
+      "review-description": "يرجى التحقق من جميع التفاصيل قبل الإرسال.",
+      "no-services": "لم تتم إضافة أي خدمات بعد",
+      "fetch-error": "فشل في جلب الحزمة",
+      "edit-success": "تم تحديث الحزمة بنجاح",
+      "edit-error": "فشل في تحديث الحزمة",
+      "add-success": "تمت إضافة الحزمة بنجاح",
+      "add-error": "فشل في إضافة الحزمة",
+      "meta": {
+        "yearly": "سنوي"
+      },
+      "status": {
+        "active": "نشطة",
+        "inactive": "غير نشطة"
+      },
+      "actions": {
+        "edit": "تعديل الحزمة رقم #{{id}}",
+        "delete": "حذف الحزمة رقم #{{id}}"
+      },
+      "common": {
+        "cancel": "إلغاء",
+        "delete": "حذف"
+      },
+      "buttons": {
+        "cancel": "إلغاء",
+        "delete": "حذف"
+      },
+      "types": {
+        "basic": "الأساسية",
+        "golden": "الذهبية",
+        "premium": "المميزة"
+      },
+      "form": {
+        "labels": {
+          "priceMonthly": "السعر الشهري",
+          "priceYearly": "السعر السنوي",
+          "note": "ملاحظة",
+          "servicesNote": "ملاحظة حول الخدمات",
+          "isActive": "نشطة",
+          "isComingSoon": "قريباً",
+          "addService": "إضافة خدمة",
+          "type": "نوع الحزمة",
+          "arNote": "ملاحظة (بالعربية)",
+          "enNote": "ملاحظة (بالإنجليزية)",
+          "heNote": "ملاحظة (بالعبرية)",
+          "arServicesNote": "ملاحظة حول الخدمات (بالعربية)",
+          "enServicesNote": "ملاحظة حول الخدمات (بالإنجليزية)",
+          "heServicesNote": "ملاحظة حول الخدمات (بالعبرية)",
+          "arServiceName": "اسم الخدمة (بالعربية)",
+          "enServiceName": "اسم الخدمة (بالإنجليزية)",
+          "heServiceName": "اسم الخدمة (بالعبرية)"
+        },
+        "placeholders": {
+          "serviceName": "أدخل اسم الخدمة",
+          "arServiceName": "أدخل اسم الخدمة بالعربية",
+          "enServiceName": "أدخل اسم الخدمة بالإنجليزية",
+          "heServiceName": "أدخل اسم الخدمة بالعبرية",
+          "serviceNameAr": "أدخل اسم الخدمة بالعربية",
+          "serviceNameHe": "أدخل اسم الخدمة بالعبرية",
+          "serviceNameEn": "أدخل اسم الخدمة بالإنجليزية"
+        },
+        "buttons": {
+          "submit": "حفظ التغييرات"
+        },
+        "errors": {
+          "required-priceMonthly": "السعر الشهري مطلوب",
+          "min-priceMonthly": "يجب أن يكون السعر الشهري 0 أو أكثر",
+          "required-priceYearly": "السعر السنوي مطلوب",
+          "min-priceYearly": "يجب أن يكون السعر السنوي 0 أو أكثر",
+          "max-note": "يجب ألا تزيد الملاحظة عن 500 حرف",
+          "max-servicesNote": "يجب ألا تزيد ملاحظة الخدمات عن 500 حرف",
+          "required-service-name": "اسم الخدمة مطلوب",
+          "max-service-name": "يجب ألا يزيد اسم الخدمة عن 100 حرف",
+          "required-type": "نوع الحزمة مطلوب",
+          "invalid-type": "تم اختيار نوع حزمة غير صالح",
+          "duplicateService": "خدمة بهذا الاسم موجودة بالفعل"
+        }
+      },
+      "rightPanel": {
+        "title-create": "إنشاء حزمة جديدة",
+        "subtitle-create": "أضف تفاصيل حول الحزمة والخدمات الخاصة بك.",
+        "title-edit": "تعديل الحزمة",
+        "subtitle-edit": "قم بتحديث تفاصيل وخدمات هذه الحزمة"
+      },
+      "messages": {
+        "delete-success": "تم حذف الحزمة بنجاح",
+        "delete-error": "حدث خطأ أثناء حذف الحزمة",
+        "delete-warning": "هل أنت متأكد أنك تريد حذف الحزمة رقم #{{id}}؟"
+      }
+    },
+    "services": {
+      "no-services": "لم يتم العثور على خدمات.",
+      "add-service": "إضافة خدمة",
+      "edit-service": "تعديل خدمة",
+      "add-success": "تمت إضافة الخدمة بنجاح.",
+      "edit-success": "تم تحديث الخدمة بنجاح.",
+      "add-error": "فشل في إضافة الخدمة.",
+      "edit-error": "فشل في تحديث الخدمة.",
+      "actions": {
+        "submit": "إضافة خدمة",
+        "update": "تحديث الخدمة"
+      },
+      "rightPanel": {
+        "title-create": "إنشاء خدمة جديدة",
+        "subtitle-create": "أضف تفاصيل حول خدمتك، بما في ذلك العنوان، والأيقونة، والوصف.",
+        "title-edit": "تعديل الخدمة",
+        "subtitle-edit": "تحديث المعلومات والإعدادات الخاصة بهذه الخدمة."
+      },
+      "form": {
+        "labels": {
+          "enTitle": "عنوان الخدمة (بالإنجليزية)",
+          "enDescription": "وصف الخدمة (بالإنجليزية)",
+          "arTitle": "عنوان الخدمة (بالعربية)",
+          "arDescription": "وصف الخدمة (بالعربية)",
+          "heTitle": "عنوان الخدمة (بالعبرية)",
+          "heDescription": "وصف الخدمة (بالعبرية)",
+          "iconSearch": "البحث عن أيقونة...",
+          "selectedIcon": "الأيقونة المحددة",
+          "order": "ترتيب"
+        },
+        "errors": {
+          "required-enTitle": "العنوان بالإنجليزية مطلوب",
+          "max-enDescription": "الحد الأقصى 500 حرف",
+          "required-arTitle": "العنوان بالعربية مطلوب",
+          "max-arDescription": "الحد الأقصى 500 حرف",
+          "required-heTitle": "العنوان بالعبرية مطلوب",
+          "max-heDescription": "الحد الأقصى 500 حرف",
+          "required-icon": "الأيقونة مطلوبة"
+        },
+        "messages": {
+          "delete-success": "تم حذف الخدمة بنجاح",
+          "delete-error": "حدث خطأ أثناء حذف الخدمة"
+        }
+      }
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "sections": {
+        "edit-password": "تغيير كلمة المرور",
+        "edit-phone": "تحديث رقم الهاتف",
+        "edit-global": "الإعدادات العامة"
+      },
+      "form": {
+        "labels": {
+          "password": "كلمة المرور الحالية",
+          "newPassword": "كلمة المرور الجديدة",
+          "newPhone": "رقم الهاتف الجديد",
+          "whatsapp": "واتساب",
+          "instagram": "إنستغرام",
+          "tiktok": "تيك توك",
+          "youtube": "يوتيوب",
+          "email": "البريد الإلكتروني",
+          "location": "موقع العمل",
+          "mobileNumber": "رقم الهاتف الجوال",
+          "customersNumber": "عدد العملاء",
+          "packagesNumber": "عدد الباقات",
+          "arTitle": "العنوان (بالعربية)",
+          "enTitle": "العنوان (بالإنجليزية)",
+          "heTitle": "العنوان (بالعبرية)",
+          "arSubtitle": "العنوان الفرعي (بالعربية)",
+          "enSubtitle": "العنوان الفرعي (بالإنجليزية)",
+          "heSubtitle": "العنوان الفرعي (بالعبرية)",
+          "arHeroCustomersTitle": "عنوان أبطال العملاء (عربي)",
+          "enHeroCustomersTitle": "عنوان أبطال العملاء (إنجليزي)",
+          "heHeroCustomersTitle": "عنوان أبطال العملاء (عبرية)",
+          "arHeroPackagesTitle": "عنوان أبطال الحزم (عربي)",
+          "enHeroPackagesTitle": "عنوان أبطال الحزم (إنجليزي)",
+          "heHeroPackagesTitle": "عنوان أبطال الحزم (عبرية)",
+          "arHeroCustomersSubtitle": "العنوان الفرعي لأبطال العملاء (عربي)",
+          "enHeroCustomersSubtitle": "العنوان الفرعي لأبطال العملاء (إنجليزي)",
+          "heHeroCustomersSubtitle": "العنوان الفرعي لأبطال العملاء (عبرية)",
+          "arHeroPackagesSubtitle": "العنوان الفرعي لأبطال الحزم (عربي)",
+          "enHeroPackagesSubtitle": "العنوان الفرعي لأبطال الحزم (إنجليزي)",
+          "heHeroPackagesSubtitle": "العنوان الفرعي لأبطال الحزم (عبرية)",
+          "arServicesTitle": "عنوان الخدمات (عربي)",
+          "enServicesTitle": "عنوان الخدمات (إنجليزي)",
+          "heServicesTitle": "عنوان الخدمات (عبري)",
+          "arServicesSubtitle": "العنوان الفرعي للخدمات (عربي)",
+          "enServicesSubtitle": "العنوان الفرعي للخدمات (إنجليزي)",
+          "heServicesSubtitle": "العنوان الفرعي للخدمات (عبري)",
+          "arCustomersTitle": "عنوان العملاء (عربي)",
+          "enCustomersTitle": "عنوان العملاء (إنجليزي)",
+          "heCustomersTitle": "عنوان العملاء (عبري)",
+          "arCustomersSubtitle": "العنوان الفرعي للعملاء (عربي)",
+          "enCustomersSubtitle": "العنوان الفرعي للعملاء (إنجليزي)",
+          "heCustomersSubtitle": "العنوان الفرعي للعملاء (عبري)",
+          "arPackagesTitle": "عنوان الباقات (عربي)",
+          "enPackagesTitle": "عنوان الباقات (إنجليزي)",
+          "hePackagesTitle": "عنوان الباقات (عبري)",
+          "arPackagesSubtitle": "العنوان الفرعي للباقات (عربي)",
+          "enPackagesSubtitle": "العنوان الفرعي للباقات (إنجليزي)",
+          "hePackagesSubtitle": "العنوان الفرعي للباقات (عبري)"
+        },
+        "placeholders": {
+          "password": "أدخل كلمة المرور الحالية",
+          "newPassword": "أدخل كلمة مرور جديدة",
+          "newPhone": "أدخل رقم الهاتف الجديد",
+          "location": "أدخل عنوانك أو مدينتك"
+        },
+        "buttons": {
+          "updatePassword": "تحديث كلمة المرور",
+          "updatePhone": "تحديث الهاتف",
+          "saveGlobal": "حفظ الإعدادات",
+          "save": "حفظ",
+          "saving": "جارٍ الحفظ..."
+        },
+        "errors": {
+          "required-password": "كلمة المرور الحالية مطلوبة.",
+          "required-newPassword": "كلمة المرور الجديدة مطلوبة.",
+          "min-newPassword": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
+          "required-newPhone": "رقم الهاتف الجديد مطلوب.",
+          "invalid-phone": "يرجى إدخال رقم هاتف صالح.",
+          "invalid-url": "يرجى إدخال رابط URL صالح.",
+          "invalid-email": "يرجى إدخال بريد إلكتروني صالح."
+        }
+      },
+      "messages": {
+        "password-success": "تم تحديث كلمة المرور بنجاح.",
+        "password-error": "فشل في تحديث كلمة المرور. يرجى المحاولة مرة أخرى.",
+        "phone-success": "تم تحديث رقم الهاتف بنجاح.",
+        "phone-error": "فشل في تحديث رقم الهاتف.",
+        "settings-success": "تم تحديث الإعدادات بنجاح.",
+        "settings-error": "فشل في تحديث الإعدادات."
+      }
+    },
+    "landing": {
+      "hero": {
+        "title": "أنشئ صفحة عملك على",
+        "subtitle": "احجز، اعرض، ووسع نشاطك التجاري عبر الإنترنت. احصل على صفحتك الخاصة وابدأ بجذب العملاء اليوم!",
+        "buttons": {
+          "subscribe": "اشترك الآن",
+          "explore-customers": "عملاؤنا"
+        }
+      },
+      "customers": {
+        "book": "احجز الآن",
+        "special": "مميز"
+      },
+      "packages": {
+        "type": {
+          "basic": "الأساسية",
+          "premium": "المميزة",
+          "golden": "الذهبية"
+        },
+        "monthly": "شهري",
+        "yearly": "سنوي",
+        "subscribe": "اشترك",
+        "soon": "قريبًا"
+      },
+      "contact": {
+        "msg": "هل لديك سؤال أو تحتاج إلى مساعدة؟ تواصل معنا!",
+        "form": {
+          "title": "أرسل لنا رسالة",
+          "labels": {
+            "name": "الاسم",
+            "phone": "رقم الهاتف",
+            "message": "الرسالة"
+          },
+          "placeholders": {
+            "name": "اسمك الكامل",
+            "phone": "رقم هاتفك",
+            "message": "اكتب رسالتك هنا..."
+          },
+          "buttons": {
+            "send": "أرسل الرسالة",
+            "sending": "جارٍ الإرسال..."
+          },
+          "errors": {
+            "name": "الاسم مطلوب",
+            "phone": "رقم الهاتف مطلوب",
+            "message": "الرسالة لا يمكن أن تكون فارغة"
+          }
+        },
+        "messages": {
+          "success": "تم إرسال رسالتك بنجاح!",
+          "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+        },
+        "socials": {
+          "mobileNumber": "الهاتف",
+          "email": "البريد الإلكتروني",
+          "whatsapp": "واتساب",
+          "instagram": "إنستغرام",
+          "tiktok": "تيك توك",
+          "youtube": "يوتيوب",
+          "location": "الموقع"
+        }
+      }
+    },
+    "requests": {
+      "addRequest": "إضافة طلب",
+      "no-requests": "لا توجد طلبات حالياً.",
+      "welcomeMessage": "مرحباً! نحن سعداء بانضمامك. يرجى تعبئة البيانات أدناه لبدء رحلتك معنا.",
+      "convert": "تحويل",
+      "convert-warning": "هل أنت متأكد أنك تريد تحويل هذا الطلب إلى عميل لـ",
+      "convert-success": "تم تحويل الطلب إلى عميل بنجاح",
+      "convert-error": "فشل في تحويل الطلب إلى عميل",
+      "types": {
+        "basic": "الأساسية",
+        "premium": "المميزة",
+        "golden": "الذهبية"
+      },
+      "form": {
+        "labels": {
+          "name": "الاسم",
+          "businessName": "اسم النشاط",
+          "phone": "رقم الهاتف",
+          "package": "الباقة"
+        },
+        "buttons": {
+          "submit": "إرسال الطلب"
+        },
+        "errors": {
+          "name": "الاسم مطلوب",
+          "businessName": "اسم النشاط مطلوب",
+          "phone": "رقم الهاتف مطلوب",
+          "package": "الباقة مطلوبة"
+        }
+      },
+      "messages": {
+        "add-success": "تم إرسال الطلب بنجاح",
+        "add-error": "فشل في إرسال الطلب"
+      },
+      "rightPanel": {
+        "title-create": "إنشاء طلب جديد",
+        "subtitle-create": "املأ النموذج لإرسال طلبك"
+      }
+    }
+  }
+}

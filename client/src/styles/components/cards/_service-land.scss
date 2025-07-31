@@ -1,0 +1,7 @@
+.service-land {
+  height: 170px;
+
+  &:hover {
+    @include prefixer(transform, translateY(-6px));
+  }
+}

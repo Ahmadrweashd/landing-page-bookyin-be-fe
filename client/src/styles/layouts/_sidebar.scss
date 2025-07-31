@@ -1,0 +1,47 @@
+aside.sidebar {
+  width: 230px;
+  border-right: 1px solid var(--c-snow-transparent-08);
+  position: fixed;
+  @include set-position(72px, auto, 0, -230px);
+  z-index: 1080;
+
+  &.visible {
+    @include set-position(72px, auto, 0, 0);
+  }
+
+  .content {
+    border-bottom: 1px solid var(--c-snow-transparent-08);
+  }
+
+  a {
+    width: 230px;
+  }
+
+  @include breakpoints(lg) {
+    position: static;
+  }
+
+  .toggle-button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--c-snow-transparent-08);
+    border-left: transparent;
+    @include set-position(125px, -35px, auto, auto);
+  }
+
+  &.visible {
+    .icon {
+      @include animation(rotate, 3s linear infinite)
+    }
+  }
+
+  .profile {
+    max-width: 230px;
+    height: 75px;
+
+    .profile-img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

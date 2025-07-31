@@ -1,0 +1,46 @@
+.btn-main-outline {
+  background-color: transparent;
+  border: 1px solid var(--c-main);
+  color: var(--c-main);
+}
+
+.btn-main {
+  background-color: var(--c-main);
+  border: none;
+  color: white;
+}
+
+.btn-main-gradient {
+  background: var(--bg-gradient-main-dark);
+  border: 1px solid var(--c-main);
+  font-weight: 600;
+  color: white;
+}
+
+.btn-main-gradient:hover {
+  border: 1px solid var(--c-main) !important;
+  box-shadow: inset 1px 1px 15px 0 rgba(0, 0, 0, 0.39);
+  color: white;
+}
+
+.btn-main:hover {
+  background-color: var(--c-main-hover);
+  color: white;
+}
+
+.btn-main:disabled {
+  border: 1px solid gray;
+}
+
+.btn-main-outline:hover {
+  background-color: var(--c-main);
+  color: white;
+}
+
+.my-btn:not(.btn-main-gradient):disabled {
+  background-image: none;
+  background-color: transparent !important;
+  border: 2px solid var(--c-disabled);
+  color: var(--c-disabled);
+  cursor: default;
+}

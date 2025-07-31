@@ -1,0 +1,39 @@
+$xxs: "(max-width: 400px)";
+$xs: "(max-width: 575.9px)";
+$sm: "(min-width: 576px)";
+$md: "(min-width: 768px)";
+$lg: "(min-width: 992px)";
+$xl: "(min-width: 1200px)";
+$xxl: "(min-width: 1400px)";
+
+$lg-max: "(max-width: 992px)";
+
+:root {
+  --t-03: 0.3s;
+  --t-06: 0.6s;
+
+  --f-important: "Rubik", sans-serif;
+
+  --c-main: #51c6e8;
+  --c-main-hover: #3aa0c4;
+  --c-main-dark: #2b6a7d;
+
+  --c-second: #10d8777f;
+
+  --c-background: #fff;
+  --c-background-shadow: #f0f0f0;
+
+  --c-text: #000;
+
+  --c-gray: #c7c5c540;
+
+  --c-disabled: #756363;
+
+  --c-snow-transparent-08: rgb(222, 222, 222, 0.8);
+
+  --bg-gradient-main: linear-gradient(280deg, rgba(255, 255, 255, 0.427) 20%, rgba(81, 198, 232, 0.15) 100%);
+  --bg-gradient-main-reverse: linear-gradient(120deg, rgba(255, 255, 255, 0.427) 20%, rgba(81, 198, 232, 0.15) 100%);
+  --bg-gradient-main-dark: linear-gradient(120deg, var(--c-main-dark) 20%, var(--c-main) 100%);
+  --text-gradient-main-second: linear-gradient(90deg, var(--c-main-dark), var(--c-main-hover));
+
+}

@@ -1,0 +1,16 @@
+.notification-warning {
+  background-color: var(--c-second-transparent);
+  @include set-position(0, 0, 0, 0);
+  z-index: 1100;
+
+  .warning-box {
+    background-color: var(--c-second-shadow);
+    min-width: 320px;
+    max-width: 400px;
+    @include animation(popup, 0.8s ease-out);
+  }
+
+  .warning-header {
+    border-bottom: 3px solid black;
+  }
+}

@@ -1,0 +1,95 @@
+.w-fit {
+  width: fit-content !important;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.min-h-100vh {
+  min-height: 100vh;
+}
+
+.h-screen {
+  height: calc(100vh - 72px);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.f-important {
+  font-family: var(--f-important);
+}
+
+.fs-md {
+  font-size: 14px
+}
+
+.fs-sm {
+  font-size: 12px
+}
+
+.transition-03 {
+  @include prefixer(transition, var(--t-03) ease-in-out);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-main.hover:hover {
+  color: var(--c-main-hover);
+}
+
+.bg-main {
+  background-color: var(--c-main);
+}
+
+.bg-background {
+  background-color: var(--c-background);
+}
+
+.text-main {
+  color: var(--c-main);
+}
+
+.text-main-hover:hover {
+  color: var(--c-main-hover) !important;
+}
+
+.bg-gradient-main-background {
+  background: var(--bg-gradient-main);
+}
+
+.bg-gradient-main-background-reverse {
+  background: var(--bg-gradient-main-reverse);
+}
+
+.border-main {
+  border: 1px solid var(--c-main);
+}
+
+.text-main-dark {
+  color: var(--c-main-dark);
+}
+
+.gradient-text {
+  background: var(--text-gradient-main-second);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+}

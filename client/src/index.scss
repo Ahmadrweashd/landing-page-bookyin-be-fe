@@ -1,0 +1,45 @@
+/* Helpers */
+@import "./styles/helpers/variables";
+@import "./styles/helpers/mixins";
+@import "./styles/helpers/framework";
+@import "./styles/helpers/animations";
+
+/* Global */
+@import "./styles/screens/global-rule";
+
+/* Pages */
+@import "./styles/screens/login";
+@import "./styles/screens/add-service";
+@import "./styles/screens/customer-profile";
+@import "./styles/screens/notifications";
+
+/* Layouts */
+@import "./styles/layouts/header-dash";
+@import "./styles/layouts/sidebar";
+@import "./styles/layouts/header-land";
+
+/* Components */
+@import "./styles/components/toast";
+@import "./styles/components/warning";
+@import "./styles/components/language-box";
+@import "./styles/components/loading-box";
+@import "./styles/components/customer/services-section";
+@import "./styles/components/gradient-banner";
+@import "./styles/components/land-section-header";
+@import "./styles/components/notification-dropdown";
+
+
+/* Components -> Form */
+@import "./styles/components/form/button";
+@import "./styles/components/form/a-switch";
+
+/* Components -> Cards */
+@import "./styles/components/cards/customer-dash";
+@import "./styles/components/cards/package-dash";
+@import "./styles/components/cards/customer-land";
+@import "./styles/components/cards/service-land";
+@import "./styles/components/cards/package-land";
+
+/* Sections */
+@import "./styles/sections/hero";
+@import "./styles/sections/contact";
