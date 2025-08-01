@@ -1,7 +1,5 @@
 const { body, param, query } = require("express-validator");
 
-const serviceActions = ["delete", "new", "add"];
-
 const createCustomer = [
   body("name").notEmpty().isString().isLength({ max: 100 }),
   body("phone").optional().isString().isLength({ max: 50 }),
@@ -9,9 +7,6 @@ const createCustomer = [
   body("location").optional().isString().isLength({ max: 255 }),
   body("note").optional().isString(),
   body("isSpecial").optional().isBoolean(),
-  body("services").optional().isArray(),
-  body("services.*.name").optional().isString().isLength({ max: 100 }),
-  body("services.*.action").optional().isIn(serviceActions),
   body("businessName").notEmpty().isString().isLength({ max: 100 }),
 ];
 
@@ -23,9 +18,6 @@ const updateCustomer = [
   body("location").optional().isString().isLength({ max: 255 }),
   body("note").optional().isString(),
   body("isSpecial").optional().isBoolean(),
-  body("services").optional().isArray(),
-  body("services.*.name").optional().isString().isLength({ max: 100 }),
-  body("services.*.action").optional().isIn(serviceActions),
   body("businessName").optional().isString().isLength({ max: 100 }),
 ];
 

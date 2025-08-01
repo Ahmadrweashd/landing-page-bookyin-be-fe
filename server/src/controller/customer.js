@@ -1,7 +1,6 @@
-const { Customer, CustomerService } = require("../models");
+const { Customer } = require("../models");
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 const { omitImageFields } = require("../middlewares/customer");
-const { handleServices } = require("../strategies/customer");
 const path = require("path");
 const fs = require('fs');
 
@@ -14,7 +13,6 @@ const getCustomers = catchAsyncErrors(async (req, res) => {
     offset,
     limit,
     order: [["id", "DESC"]],
-    include: [{ model: CustomerService, through: { attributes: [] } }],
   });
 
   res.status(200).json({
@@ -27,15 +25,8 @@ const getCustomers = catchAsyncErrors(async (req, res) => {
   });
 });
 
-const getCustomersServices = catchAsyncErrors(async (req, res) => {
-  const services = await CustomerService.findAll();
-  res.status(200).json({ services });
-})
-
 const getCustomer = catchAsyncErrors(async (req, res) => {
-  const customer = await Customer.findByPk(req.customer.id, {
-    include: [{ model: CustomerService, through: { attributes: [] } }],
-  });
+  const customer = await Customer.findByPk(req.customer.id);
   res.status(200).json({
     customer: {
       ...omitImageFields(customer),
@@ -74,7 +65,7 @@ const getBackgroundImage = catchAsyncErrors(async (req, res) => {
 
 
 const createCustomer = catchAsyncErrors(async (req, res) => {
-  const { services, ...customerData } = req.body;
+  const { ...customerData } = req.body;
 
   if (req.files) {
     if (req.files.profileURL) {
@@ -87,7 +78,6 @@ const createCustomer = catchAsyncErrors(async (req, res) => {
   }
 
   const customer = await Customer.create(customerData);
-  await handleServices(customer, services);
 
   res.status(201).json({
     msg: "Customer created successfully",
@@ -97,7 +87,7 @@ const createCustomer = catchAsyncErrors(async (req, res) => {
 
 
 const updateCustomer = catchAsyncErrors(async (req, res) => {
-  const { services, ...customerData } = req.body;
+  const { ...customerData } = req.body;
 
   if (req.files) {
     if (req.files.profileURL && req.files.profileURL[0]) {
@@ -130,7 +120,6 @@ const updateCustomer = catchAsyncErrors(async (req, res) => {
   }
 
   await req.customer.update(customerData);
-  await handleServices(req.customer, services);
 
   res.status(200).json({
     msg: "Customer updated successfully",
@@ -178,5 +167,4 @@ module.exports = {
   deleteCustomer,
   convertRequestToCustomer,
   getCustomerByBusinessName,
-  getCustomersServices
 };

@@ -26,20 +26,11 @@ const omitImageFields = (customer) => {
 const findCustomerByBusinessName = catchAsyncErrors(async (req, res, next) => {
   const customer = await Customer.findOne({
     where: { businessName: req.params.businessName },
-    include: [{ model: CustomerService, through: { attributes: [] }, required: false }]
   });
   if (!customer) return next(new Error("Customer not found", 404));
   req.customer = customer;
   next();
 });
-
-const parseServicesToArray = catchAsyncErrors(
-  (req, res, next) => {
-    if (typeof req.body.services === "string") {
-      req.body.services = JSON.parse(req.body.services);
-    }
-    next();
-  })
 
 module.exports = {
   findCustomer,
@@ -47,5 +38,4 @@ module.exports = {
   checkProfileImageExists,
   checkBackgroundImageExists,
   findCustomerByBusinessName,
-  parseServicesToArray
 };

@@ -23,7 +23,6 @@ const isAuthenticated = catchAsyncErrors(async (req, res, next) => {
   next();
 })
 
-
 const checkIsPasswordCorrect = catchAsyncErrors(async (req, res, next) => {
   const { password } = req.body;
   const user = req.user;

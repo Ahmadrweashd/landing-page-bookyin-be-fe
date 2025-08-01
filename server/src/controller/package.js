@@ -1,7 +1,6 @@
 const { Package, PackageService } = require("../models");
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 const { handlePackageServices } = require("../strategies/package");
-const { where } = require("sequelize");
 
 const getPackages = catchAsyncErrors(async (req, res) => {
   const page = parseInt(req.query.page) || 1;
@@ -46,6 +45,7 @@ const getActivePackages = catchAsyncErrors(async (req, res) => {
     offset,
     limit,
     include: [{ model: PackageService }],
+    order: [['id', 'ASC']],
   });
 
   res.status(200).json({
